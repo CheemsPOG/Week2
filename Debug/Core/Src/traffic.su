@@ -1,0 +1,6 @@
+traffic.c:19:6:draw_light	40	static
+traffic.c:24:6:show_mode	56	static
+traffic.c:35:6:show_value	56	static
+traffic.c:43:6:show_lights	24	static
+traffic.c:73:6:traffic_init	8	static
+traffic.c:80:6:traffic_run	40	static
