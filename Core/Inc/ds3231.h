@@ -11,13 +11,13 @@
 #include "i2c.h"
 #include "utils.h"
 
-#define ADDRESS_SEC 0x00
-#define ADDRESS_MIN 0x01
-#define ADDRESS_HOUR 0x02
-#define ADDRESS_DAY 0x03
-#define ADDRESS_DATE 0x04
-#define ADDRESS_MONTH 0x05
-#define ADDRESS_YEAR 0x06
+#define ADDRESS_SEC			0x00
+#define ADDRESS_MIN			0x01
+#define ADDRESS_HOUR		0x02
+#define ADDRESS_DAY			0x03
+#define ADDRESS_DATE		0x04
+#define ADDRESS_MONTH		0x05
+#define ADDRESS_YEAR		0x06
 
 extern uint8_t ds3231_hours;
 extern uint8_t ds3231_min;
@@ -30,8 +30,8 @@ extern uint8_t ds3231_year;
 void ds3231_init();
 
 void ds3231_Write(uint8_t address, uint8_t value);
-void ds3231_WriteTime(uint8_t hours, uint8_t minutes, uint8_t seconds, uint8_t date, uint8_t month, uint8_t year);
 
 void ds3231_ReadTime();
 
 #endif /* INC_DS3231_H_ */
+
